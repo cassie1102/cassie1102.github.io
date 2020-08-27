@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Chenxi Wu</title>
-    <link>https://example.com/post/</link>
+    <link>https://cassie1102.github.io/post/</link>
     <description>Recent content in Posts on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Aug 2020 16:21:35 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cassie1102.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github_page</title>
-      <link>https://example.com/post/github_page/</link>
+      <link>https://cassie1102.github.io/post/github_page/</link>
       <pubDate>Thu, 27 Aug 2020 16:21:35 +0800</pubDate>
       
-      <guid>https://example.com/post/github_page/</guid>
+      <guid>https://cassie1102.github.io/post/github_page/</guid>
       <description>Hello, this is my first post.</description>
     </item>
     
