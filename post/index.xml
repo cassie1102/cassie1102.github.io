@@ -19,7 +19,7 @@
       <guid>https://cassie1102.github.io/post/github_page/</guid>
       <description>Hello, this post is an introduction on how to build a personal website using Github Pages and Hugo.
 Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.
-Step 1 - Setup Set up a working directory on your local machine, mine is called &amp;lsquo;projects&amp;rsquo;, and within the &amp;ldquo;projects&amp;rdquo; folder create another fold to save your website changes.</description>
+Step 1 - Install Hugo The Hugo website has detailed tutorial for installing Hugo. On Mac machines, you can simply install it using the following command:</description>
     </item>
     
   </channel>

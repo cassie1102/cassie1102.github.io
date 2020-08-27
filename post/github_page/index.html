@@ -29,7 +29,7 @@
     <meta property="og:title" content="How to Build a Personal Webpage" />
 <meta property="og:description" content="Hello, this post is an introduction on how to build a personal website using Github Pages and Hugo.
 Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.
-Step 1 - Setup Set up a working directory on your local machine, mine is called &lsquo;projects&rsquo;, and within the &ldquo;projects&rdquo; folder create another fold to save your website changes." />
+Step 1 - Install Hugo The Hugo website has detailed tutorial for installing Hugo. On Mac machines, you can simply install it using the following command:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cassie1102.github.io/post/github_page/" />
 <meta property="article:published_time" content="2020-08-27T16:21:35+08:00" />
@@ -37,10 +37,10 @@ Step 1 - Setup Set up a working directory on your local machine, mine is called 
 <meta itemprop="name" content="How to Build a Personal Webpage">
 <meta itemprop="description" content="Hello, this post is an introduction on how to build a personal website using Github Pages and Hugo.
 Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.
-Step 1 - Setup Set up a working directory on your local machine, mine is called &lsquo;projects&rsquo;, and within the &ldquo;projects&rdquo; folder create another fold to save your website changes.">
+Step 1 - Install Hugo The Hugo website has detailed tutorial for installing Hugo. On Mac machines, you can simply install it using the following command:">
 <meta itemprop="datePublished" content="2020-08-27T16:21:35&#43;08:00" />
 <meta itemprop="dateModified" content="2020-08-27T16:21:35&#43;08:00" />
-<meta itemprop="wordCount" content="169">
+<meta itemprop="wordCount" content="627">
 
 
 
@@ -48,7 +48,7 @@ Step 1 - Setup Set up a working directory on your local machine, mine is called 
 <meta name="twitter:title" content="How to Build a Personal Webpage"/>
 <meta name="twitter:description" content="Hello, this post is an introduction on how to build a personal website using Github Pages and Hugo.
 Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.
-Step 1 - Setup Set up a working directory on your local machine, mine is called &lsquo;projects&rsquo;, and within the &ldquo;projects&rdquo; folder create another fold to save your website changes."/>
+Step 1 - Install Hugo The Hugo website has detailed tutorial for installing Hugo. On Mac machines, you can simply install it using the following command:"/>
 
 	
   </head>
@@ -176,14 +176,56 @@ Step 1 - Setup Set up a working directory on your local machine, mine is called 
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hello, this post is an introduction on how to build a personal website using <a href="https://pages.github.com/">Github Pages</a> and <a href="https://gohugo.io/">Hugo</a>.</p>
 <p>Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.</p>
-<h2 id="step-1---setup">Step 1 - Setup</h2>
-<p>Set up a working directory on your local machine, mine is called &lsquo;projects&rsquo;, and within the &ldquo;projects&rdquo; folder create another fold to save your website changes. Mine is called &lsquo;blog&rsquo;.</p>
-<p>Log in to your Github page and create a repository to connect to the &lsquo;blog&rsquo; fold on your machine. It saves all changes you make locally with your website.</p>
-<h2 id="step-2---install-hugo">Step 2 - Install Hugo</h2>
+<h2 id="step-1---install-hugo">Step 1 - Install Hugo</h2>
 <p>The Hugo website has detailed tutorial for installing Hugo. On Mac machines, you can simply install it using the following command:</p>
 <pre><code class="language-{shell}" data-lang="{shell}">brew install hugo
 </code></pre><p>You can check your installation using the command &lsquo;hugo version&rsquo;. If the version pops up on your command window you should be good to go.</p>
-<h2 id="step-3">Step 3</h2>
+<h2 id="step-2---setup">Step 2 - Setup</h2>
+<p>Set up a working directory on your local machine, mine is called &lsquo;/projects&rsquo;, and within the &lsquo;/projects&rsquo; folder create another folder to save your website changes. Mine is called &lsquo;/blog&rsquo;.  Inside the &lsquo;/blog&rsquo; folder, initiate the Hugo server via the following command:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ hugo new site .
+</code></pre><p>Log in to your Github page and create a repository to connect to the &lsquo;/blog&rsquo; folder on your machine. It saves all changes you make locally with your website. Here is the command to connect to the Github repository:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ git init
+$ git remote add origin # the https url of the repository you just created #
+$ git pull origin master
+</code></pre><p>Then push your changes to the repository and all the files should be there.</p>
+<h2 id="step-3---choose-a-theme">Step 3 - Choose a theme</h2>
+<p>The <a href="https://themes.gohugo.io/">themes</a> section of Hugo contains many beautiful themes of the website for you to choose from. I chose <a href="https://themes.gohugo.io/gohugo-theme-ananke/">Ananke</a> and clicked the Homepage button to get to its Github page.</p>
+<p>The next thing is to add this theme to your website. Simply git clone the Github page of the theme into the &lsquo;/themes&rsquo; folder under the &lsquo;/blog&rsquo; folder on your local machine.</p>
+<h2 id="step-4---build-your-website-locally">Step 4 - Build your website locally</h2>
+<p>The most important features of the webpage is inside the <code>config.toml</code> file under &lsquo;/blog&rsquo;. You can use the text editor you like to edit the file. (I used <em>Atom</em>.) Use the following command under the &lsquo;/blog&rsquo; to create blogs/posts:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ hugo new post/# file name #.md
+</code></pre><p>The .md file should be in the &lsquo;~/blog/content/post&rsquo; folder. You can now write the blog in this file. Once finished, go to &lsquo;/blog&rsquo; folder again and type the following command:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ hugo server -w
+</code></pre><p>For my project the following information pops up:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">| EN  
+-------------------+-----
+Pages            | 11  
+Paginator pages  |  0  
+Non-page files   |  0  
+Static files     |  6  
+Processed images |  0  
+Aliases          |  1  
+Sitemaps         |  1  
+Cleaned          |  0  
+
+Built in 18 ms
+Watching for changes in /Users/chenxiwu/Desktop/2020 Fall/BIOS 823/projects/blog/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /Users/chenxiwu/Desktop/2020 Fall/BIOS 823/projects/blog/config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><p>You can check your website by clicking the localhost link above. After making sure everything looks good, push your changes to the blog repository using the following commands:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ git add .
+$ git commit -m &quot;made some changes&quot;
+$ git push origin master
+</code></pre><h2 id="step-5---deploy-the-site">Step 5 - Deploy the site</h2>
+<p>Create a Github repository named as <strong>username</strong> + &lsquo;github.io&rsquo; and git clone it to the &lsquo;/projects&rsquo; folder. Then do &ldquo;git pull origin master&rdquo; to keep your branch up to date. My repository name is &lsquo;cassie1102.github.io&rsquo;. Under &lsquo;/blog&rsquo; folder, type:</p>
+<pre><code class="language-{shell}" data-lang="{shell}">$ hugo -d ../cassie1102.github.io
+$ cd ../cassie1102.github.io
+</code></pre><p>Then use git add, commit and push the changes to the repository. Under the &lsquo;Settings&rsquo; button of the repository, you can see the link to your personal website within the &lsquo;Github Pages&rsquo; section.</p>
+<p>This is all the processes I went through to build this website. Please contact me via <a href="mailto:cassiew1102@gmail.com">cassiew1102@gmail.com</a> for further questions.</p>
 <ul class="pa0">
   
 </ul>
