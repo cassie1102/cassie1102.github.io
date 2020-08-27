@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Github_page</title>
+      <title>How to Build a Personal Webpage</title>
       <link>https://cassie1102.github.io/post/github_page/</link>
       <pubDate>Thu, 27 Aug 2020 16:21:35 +0800</pubDate>
       
       <guid>https://cassie1102.github.io/post/github_page/</guid>
-      <description>Hello, this is my first post.</description>
+      <description>Hello, this post is an introduction on how to build a personal website using Github Pages and Hugo.
+Hugo is one of the most popular framework for building websites. Github Pages is a static web hosting service provided by Github. Here I listed all the steps of building this website.
+Step 1 - Setup Set up a working directory on your local machine, mine is called &amp;lsquo;projects&amp;rsquo;, and within the &amp;ldquo;projects&amp;rdquo; folder create another fold to save your website changes.</description>
     </item>
     
   </channel>
