@@ -6,10 +6,21 @@
     <description>Recent content on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2020 06:12:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 11:55:10 +0800</lastBuildDate>
     
 	<atom:link href="https://cassie1102.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Malaria Visualizations</title>
+      <link>https://cassie1102.github.io/post/malaria_visualisations/</link>
+      <pubDate>Thu, 24 Sep 2020 11:55:10 +0800</pubDate>
+      
+      <guid>https://cassie1102.github.io/post/malaria_visualisations/</guid>
+      <description>As one of the most severe diseases in current world, the World Health Organization (WHO) considers nearly half the world’s population is at risk from Malaria. Today I will create 3 visualizations for Malaria using the dataset provided by Tidytuesday.
+The datasets I used to create the visualizations are as follows:
+malaria_inc.csv - Malaria incidence by country for all ages across the world across time. malaria_deaths.csv - Malaria deaths by country for all ages across the world and time.</description>
+    </item>
     
     <item>
       <title>Python Solution to 3 Euler projects</title>
