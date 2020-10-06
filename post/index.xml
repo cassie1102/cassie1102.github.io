@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 11:55:10 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2020 18:08:52 +0800</lastBuildDate>
     
 	<atom:link href="https://cassie1102.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spotify</title>
+      <link>https://cassie1102.github.io/post/spotify/</link>
+      <pubDate>Tue, 06 Oct 2020 18:08:52 +0800</pubDate>
+      
+      <guid>https://cassie1102.github.io/post/spotify/</guid>
+      <description>Spotify is one of the most popular music streaming and media services provider. This post uses the Spotify songs dataset provided by tidytuesday and aims at building a 3NF normalized database using sqlite.
+Let&amp;rsquo;s start by looking at the dataset. Below is the columns of the dataframe.
+[&amp;lsquo;track_id&amp;rsquo;, &amp;lsquo;track_name&amp;rsquo;, &amp;lsquo;track_artist&amp;rsquo;, &amp;lsquo;track_popularity&amp;rsquo;, &amp;lsquo;track_album_id&amp;rsquo;, &amp;lsquo;track_album_name&amp;rsquo;, &amp;lsquo;track_album_release_date&amp;rsquo;, &amp;lsquo;playlist_name&amp;rsquo;, &amp;lsquo;playlist_id&amp;rsquo;, &amp;lsquo;playlist_genre&amp;rsquo;, &amp;lsquo;playlist_subgenre&amp;rsquo;, &amp;lsquo;danceability&amp;rsquo;, &amp;lsquo;energy&amp;rsquo;, &amp;lsquo;key&amp;rsquo;, &amp;lsquo;loudness&amp;rsquo;, &amp;lsquo;mode&amp;rsquo;, &amp;lsquo;speechiness&amp;rsquo;, &amp;lsquo;acousticness&amp;rsquo;, &amp;lsquo;instrumentalness&amp;rsquo;, &amp;lsquo;liveness&amp;rsquo;, &amp;lsquo;valence&amp;rsquo;, &amp;lsquo;tempo&amp;rsquo;, &amp;lsquo;duration_ms&amp;rsquo;]</description>
+    </item>
     
     <item>
       <title>Malaria Visualizations</title>
