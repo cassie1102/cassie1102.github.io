@@ -6,10 +6,20 @@
     <description>Recent content on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2020 18:08:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 02:30:47 +0800</lastBuildDate>
     
 	<atom:link href="https://cassie1102.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Starwar API Exploration</title>
+      <link>https://cassie1102.github.io/post/starwar/</link>
+      <pubDate>Fri, 23 Oct 2020 02:30:47 +0800</pubDate>
+      
+      <guid>https://cassie1102.github.io/post/starwar/</guid>
+      <description>SWAPI, or the Star Wars API, is the world&amp;rsquo;s first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe. This post will use SWAPI to request the results of interest from the website and find the oldest character in Star Wars with the films the character is in.
+Request information The process requires the package requests. After exploring the request, I found that the result is stored in different pages which can be requested with the &amp;lsquo;next&amp;rsquo; feature in each page&amp;rsquo;s result.</description>
+    </item>
     
     <item>
       <title>Spotify</title>
