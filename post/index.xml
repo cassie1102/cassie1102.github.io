@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2020 02:30:47 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2020 01:53:53 +0800</lastBuildDate>
     
 	<atom:link href="https://cassie1102.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Doctoral_analysis</title>
+      <link>https://cassie1102.github.io/post/doctoral_analysis/</link>
+      <pubDate>Sat, 07 Nov 2020 01:53:53 +0800</pubDate>
+      
+      <guid>https://cassie1102.github.io/post/doctoral_analysis/</guid>
+      <description>This blog uses the data of PhDs awarded in the US to build a Dash dashboard. According to the description, &amp;ldquo;These tables present detailed data on the demographic characteristics, educational history, sources of financial support, and postgraduation plans of doctorate recipients. Explore the Survey of Earned Doctorates data further via NCSES&amp;rsquo;s interactive data tool.&amp;rdquo;
+The dashboard can be accessed here
+I first generated the needed plots using plotly and saved them via chart-studio, the notebook can be found here.</description>
+    </item>
     
     <item>
       <title>Starwar API Exploration</title>
