@@ -6,10 +6,19 @@
     <description>Recent content on Chenxi Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2020 01:53:53 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2020 03:05:08 +0800</lastBuildDate>
     
 	<atom:link href="https://cassie1102.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Image Classification Using CNN</title>
+      <link>https://cassie1102.github.io/post/cnn/</link>
+      <pubDate>Tue, 17 Nov 2020 03:05:08 +0800</pubDate>
+      
+      <guid>https://cassie1102.github.io/post/cnn/</guid>
+      <description>Neural network is an algorithmic mathematical model that imitates the behavioral characteristics of animal neural networks to perform distributed parallel information processing. This kind of network depends on the complexity of the system, and adjusts the interconnected relationship between a large number of internal nodes to achieve the purpose of processing information. The Neural network model was first established by Warren McCulloch and Walter Pitts in 1943. Their model is entirely based on mathematics and algorithms, which could not be tested due to lack of computing resources at that time.</description>
+    </item>
     
     <item>
       <title>Doctoral_analysis</title>

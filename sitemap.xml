@@ -4,20 +4,27 @@
   
   <url>
     <loc>https://cassie1102.github.io/</loc>
-    <lastmod>2020-11-07T01:53:53+08:00</lastmod>
+    <lastmod>2020-11-17T03:05:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://cassie1102.github.io/post/doctoral_analysis/</loc>
-    <lastmod>2020-11-07T01:53:53+08:00</lastmod>
+    <loc>https://cassie1102.github.io/post/cnn/</loc>
+    <lastmod>2020-11-17T03:05:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://cassie1102.github.io/post/</loc>
+    <lastmod>2020-11-17T03:05:08+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cassie1102.github.io/post/doctoral_analysis/</loc>
     <lastmod>2020-11-07T01:53:53+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
