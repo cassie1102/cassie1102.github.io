@@ -4,20 +4,27 @@
   
   <url>
     <loc>https://cassie1102.github.io/</loc>
-    <lastmod>2020-11-17T03:05:08+08:00</lastmod>
+    <lastmod>2020-11-21T12:23:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://cassie1102.github.io/post/cnn/</loc>
-    <lastmod>2020-11-17T03:05:08+08:00</lastmod>
+    <loc>https://cassie1102.github.io/post/mimic_project/</loc>
+    <lastmod>2020-11-21T12:23:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://cassie1102.github.io/post/</loc>
+    <lastmod>2020-11-21T12:23:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cassie1102.github.io/post/cnn/</loc>
     <lastmod>2020-11-17T03:05:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
