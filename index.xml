@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Mimic Dataset Analysis</title>
+      <title>Dashboard of Mimic Dataset Exploratory Analysis</title>
       <link>https://cassie1102.github.io/post/mimic_project/</link>
       <pubDate>Sat, 21 Nov 2020 12:23:10 +0800</pubDate>
       
       <guid>https://cassie1102.github.io/post/mimic_project/</guid>
-      <description>MIMIC</description>
+      <description>&amp;ldquo;MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with ~60,000 intensive care unit admissions. It includes demographics, vital signs, laboratory tests, medications, and more.&amp;rdquo; (MIMIC official website). There are tons of experimental research on this dataset. This project aims at building an interactive dashboard of the ICU admission data to provide insight into demographics/disease information and co-occurrence of various diseases.</description>
     </item>
     
     <item>
